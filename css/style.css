@@ -16,23 +16,20 @@ body{
   padding: 20px;
 }
 /*gambiarra*/
-body::before{
-  content: '';
-  background-image: url('/images/bg-pattern-bottom.svg');
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 350px;
-  right: 0px;
-  left: 600px;
-  bottom: 0px;
-}
-
-span img{
+.fundo-1 img{
   position: absolute;
   top: -500px;
   bottom: 0px;
   left: -350px;
   right: 0px;
+}
+
+.fundo-2 img{
+  position: fixed;
+  top: 370px;
+  right: 0px;
+  left: 590px;
+  bottom: 0px;
 }
 /*fim da gambiarra*/
 
