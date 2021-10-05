@@ -1,0 +1,113 @@
+/*geral*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: .9rem;
+  background: #35A1AD;
+  padding: 20px;
+}
+/*gambiarra*/
+body::before{
+  content: '';
+  background-image: url('/images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 350px;
+  right: 0px;
+  left: 600px;
+  bottom: 0px;
+}
+
+span img{
+  position: absolute;
+  top: -500px;
+  bottom: 0px;
+  left: -350px;
+  right: 0px;
+}
+/*fim da gambiarra*/
+
+p{
+  font-weight: 400;
+  color: #A0A1A5;
+}
+
+/*style*/
+main{
+  position: relative;
+  background: #fff;
+  max-width: 350px;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-shadow:0px 0px 1.5rem #1C555C;
+}
+
+header img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#foto-perfil{
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 auto;
+  position:relative;
+  top: -55px;
+  border: 6px solid #fff;
+}
+
+.conteudo-1{
+  position: relative;
+  top: -40px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #F6F6F6;
+}
+
+.titulo{
+  font-weight: bold;
+  color: #32303E;
+  font-weight: 700;
+  line-height: 1.4em;
+  font-size: 1.2rem;
+}
+
+.titulo span{
+  color: #A0A1A5;
+  font-weight: 400;
+}
+
+.conteudo-2{
+  position: relative;
+  top: -30px;
+  padding: 10px 40px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.attribution{ 
+  position: relative;
+  color: #32303E;
+  font-size: .675rem;
+  text-align: center;
+  margin: 10px; 
+}
+.attribution a{
+  text-decoration: none;
+   color: #fff; 
+}
+
+.attribution a:hover{
+  text-decoration:underline;
+}
